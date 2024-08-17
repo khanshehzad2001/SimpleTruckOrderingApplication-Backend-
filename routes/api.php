@@ -36,6 +36,6 @@ Route::middleware(['auth:sanctum','admin'])->group(function () {
     Route::post('/admin/orders/{id}/communicate', [AdminController::class, 'communicateWithUser']);
 });
 
-Route::get('/', function () {
-    return 'API';
-});
+// Route::get('/', function () {
+//     return 'API';
+// });
